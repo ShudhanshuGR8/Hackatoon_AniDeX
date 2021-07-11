@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: black;
+}
+#title{
+    width: 1440px;
+    height: 40px;
+    background-color: brown;
+}
+#card{
+    font-size: 16px;
+line-height: 20px;
+max-height: 40px;
+text-shadow: 0 1px 2px #3c4043,0 1px 3px #3c4043;
+white-space: normal;
+width: 232px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box{
+    width: 900px;
+    height: 400px;
+    background-color: burlywood;
+    margin: 20px;
+    transition: ease all 1s;
+    cursor: pointer;
+    
+}
+#chr1{
+    background-image: url(media/dragon-ball-z-goku-1273631-1280x0.jpeg);
+    background-size: cover;
+}
+#chr3{
+    background-image: url(media/173ff14656509b48d5582189b0e5b5ae.jpg);
+    background-size: cover;
+}
+#chr4{
+    background-image: url(media/2a9206a4a0d1d23cf92636c42115d054.jpg);
+    background-size: cover;
+}
+#chr5{
+    background-image: url(media/808d4653032b4538f8378dd54b4e3fba.jpg);
+    background-size: cover;
+}
+#chr6{
+    background-image: url(media/b98f5978df985ec13c464ca5a27c24a3.png);
+    background-size: cover;
+}
+#chr8{
+    background-image: url(media/D94MX7-XUAIbrrs.jpg);
+    background-size: cover;
+}
+#chr9{
+    background-image: url(media/Kirito_Dual_Blades.webp);
+    background-size: cover;
+}
+#chr10{
+    background-image: url(media/d474986095285a043886b8bcc7406dc4.jpg);
+    background-size: contain;
+}
+#chr11{
+    background-image: url(media/Light_YagamiHD.webp);
+    background-size: cover;
+}
+#chr13{
+    background-image: url(media/Sasuke_Epilogue.webp);
+    background-size: cover;
+}
+#chr14{
+    background-image: url(media/main-qimg-5c7a9e42ce3bf03d6f6231ab541e4809.jpeg);
+    background-size: cover;
+}
+#chr15{
+    background-image: url(media/1-EREN\ YEAGER-1080x1920.jpg);
+    background-size: contain;
+}
+.box:hover{
+    /*transform: scale(1.2);*/
+    zoom: 1.2;
+    transition: ease all 1s;
+    
+}
+#txt{
+    background-color: black;
+    color: brown;
+    padding: 10px;
+    margin-bottom: 100px;
+    bottom: 100px;
+}
